@@ -1,4 +1,4 @@
 #!/usr/bin/bash
 
-cd /data/openpilot
+cd /data/copilot
 exec ./launch_chffrplus.sh

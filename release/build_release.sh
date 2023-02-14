@@ -6,7 +6,7 @@ DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null && pwd)"
 
 cd $DIR
 
-BUILD_DIR=/data/openpilot
+BUILD_DIR=/data/copilot
 SOURCE_DIR="$(git rev-parse --show-toplevel)"
 
 if [ -f /TICI ]; then
