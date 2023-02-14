@@ -91,26 +91,26 @@ MapPanel::MapPanel(QWidget* parent) : QWidget(parent) {
   // No prime upsell
   QWidget * no_prime_widget = new QWidget;
   {
-    QVBoxLayout *no_prime_layout = new QVBoxLayout(no_prime_widget);
-    QLabel *signup_header = new QLabel(tr("Try the Navigation Beta"));
-    signup_header->setStyleSheet(R"(font-size: 75px; color: white; font-weight:600;)");
-    signup_header->setAlignment(Qt::AlignCenter);
+    //QVBoxLayout *no_prime_layout = new QVBoxLayout(no_prime_widget);
+    //QLabel *signup_header = new QLabel(tr("Try the Navigation Beta"));
+    //signup_header->setStyleSheet(R"(font-size: 75px; color: white; font-weight:600;)");
+    //signup_header->setAlignment(Qt::AlignCenter);
 
-    no_prime_layout->addWidget(signup_header);
-    no_prime_layout->addSpacing(50);
+    //no_prime_layout->addWidget(signup_header);
+    //no_prime_layout->addSpacing(50);
 
-    QLabel *screenshot = new QLabel;
-    QPixmap pm = QPixmap("../assets/navigation/screenshot.png");
-    screenshot->setPixmap(pm.scaledToWidth(1080, Qt::SmoothTransformation));
-    no_prime_layout->addWidget(screenshot, 0, Qt::AlignHCenter);
+    //QLabel *screenshot = new QLabel;
+    //QPixmap pm = QPixmap("../assets/navigation/screenshot.png");
+    //screenshot->setPixmap(pm.scaledToWidth(1080, Qt::SmoothTransformation));
+    //no_prime_layout->addWidget(screenshot, 0, Qt::AlignHCenter);
 
-    QLabel *signup = new QLabel(tr("Get turn-by-turn directions displayed and more with a comma\nprime subscription. Sign up now: https://connect.comma.ai"));
-    signup->setStyleSheet(R"(font-size: 45px; color: white; font-weight:300;)");
-    signup->setAlignment(Qt::AlignCenter);
+    //QLabel *signup = new QLabel(tr(""));
+    //signup->setStyleSheet(R"(font-size: 45px; color: white; font-weight:300;)");
+    //signup->setAlignment(Qt::AlignCenter);
 
-    no_prime_layout->addSpacing(20);
-    no_prime_layout->addWidget(signup);
-    no_prime_layout->addStretch();
+    //no_prime_layout->addSpacing(20);
+    //no_prime_layout->addWidget(signup);
+    //no_prime_layout->addStretch();
   }
 
   stack->addWidget(main_widget);

@@ -105,7 +105,7 @@
     <name>DeclinePage</name>
     <message>
         <source>You must accept the Terms and Conditions in order to use openpilot.</source>
-        <translation>openpilot をご利用される前に、利用規約に同意する必要があります。</translation>
+        <translation type="vanished">openpilot をご利用される前に、利用規約に同意する必要があります。</translation>
     </message>
     <message>
         <source>Back</source>
@@ -114,6 +114,10 @@
     <message>
         <source>Decline, uninstall %1</source>
         <translation>拒否して %1 をｱﾝｲﾝｽﾄｰﾙ</translation>
+    </message>
+    <message>
+        <source>You must accept the Terms and Conditions in order to use copilot.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -164,7 +168,7 @@
     </message>
     <message>
         <source>Review the rules, features, and limitations of openpilot</source>
-        <translation>openpilot の特徴を見る</translation>
+        <translation type="vanished">openpilot の特徴を見る</translation>
     </message>
     <message>
         <source>Are you sure you want to review the training guide?</source>
@@ -200,7 +204,7 @@
     </message>
     <message>
         <source>openpilot requires the device to be mounted within 4° left or right and within 5° up or 8° down. openpilot is continuously calibrating, resetting is rarely required.</source>
-        <translation>openpilotの本体は、左右4°以内、上5°、下8°以内の角度で取付ける必要があります。継続してキャリブレーションを続けているので、手動でリセットを行う必要はほぼありません。</translation>
+        <translation type="vanished">openpilotの本体は、左右4°以内、上5°、下8°以内の角度で取付ける必要があります。継続してキャリブレーションを続けているので、手動でリセットを行う必要はほぼありません。</translation>
     </message>
     <message>
         <source> Your device is pointed %1° %2 and %3° %4.</source>
@@ -245,6 +249,14 @@
     <message>
         <source>Review</source>
         <translation>確認</translation>
+    </message>
+    <message>
+        <source>Review the rules, features, and limitations of copilot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>copilot requires the device to be mounted within 4° left or right and within 5° up or 8° down. copilot is continuously calibrating, resetting is rarely required.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -923,11 +935,11 @@ location set</source>
     <name>TogglesPanel</name>
     <message>
         <source>Enable openpilot</source>
-        <translation>openpilot を有効化</translation>
+        <translation type="vanished">openpilot を有効化</translation>
     </message>
     <message>
         <source>Use the openpilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature. Changing this setting takes effect when the car is powered off.</source>
-        <translation>openpilotによるアダプティブクルーズコントロールとレーンキーピングドライバーアシストを利用します。この機能を利用する際は、常に前方への注意が必要です。この設定を変更すると、車の電源が切れた時に反映されます。</translation>
+        <translation type="vanished">openpilotによるアダプティブクルーズコントロールとレーンキーピングドライバーアシストを利用します。この機能を利用する際は、常に前方への注意が必要です。この設定を変更すると、車の電源が切れた時に反映されます。</translation>
     </message>
     <message>
         <source>Enable Lane Departure Warnings</source>
@@ -955,7 +967,7 @@ location set</source>
     </message>
     <message>
         <source>Experimental openpilot Longitudinal Control</source>
-        <translation>実験段階のopenpilotによるアクセル制御</translation>
+        <translation type="vanished">実験段階のopenpilotによるアクセル制御</translation>
     </message>
     <message>
         <source>Disengage on Accelerator Pedal</source>
@@ -963,7 +975,7 @@ location set</source>
     </message>
     <message>
         <source>When enabled, pressing the accelerator pedal will disengage openpilot.</source>
-        <translation>この機能を有効化すると、openpilotを利用中にアクセルを踏むとopenpilotによる運転サポートを中断します。</translation>
+        <translation type="vanished">この機能を有効化すると、openpilotを利用中にアクセルを踏むとopenpilotによる運転サポートを中断します。</translation>
     </message>
     <message>
         <source>Show ETA in 24h Format</source>
@@ -987,15 +999,15 @@ location set</source>
     </message>
     <message>
         <source>WARNING: openpilot longitudinal control is experimental for this car and will disable Automatic Emergency Braking (AEB).</source>
-        <translation>警告: この車種でのopenpilotによるアクセル制御は実験段階であり、衝突被害軽減ブレーキ(AEB)を無効化します。</translation>
+        <translation type="vanished">警告: この車種でのopenpilotによるアクセル制御は実験段階であり、衝突被害軽減ブレーキ(AEB)を無効化します。</translation>
     </message>
     <message>
         <source>On this car, openpilot defaults to the car&apos;s built-in ACC instead of openpilot&apos;s longitudinal control. Enable this to switch to openpilot longitudinal control. Enabling Experimental mode is recommended when using experimental openpilot longitudinal control.</source>
-        <translation>openpilotはこの車の場合、車に内蔵されているACCを標準で利用します。この機能を有効にすることで実験段階のopenpilotによるアクセル制御を利用できます。実験モードと合わせて利用することをお勧めします。</translation>
+        <translation type="vanished">openpilotはこの車の場合、車に内蔵されているACCを標準で利用します。この機能を有効にすることで実験段階のopenpilotによるアクセル制御を利用できます。実験モードと合わせて利用することをお勧めします。</translation>
     </message>
     <message>
         <source>openpilot defaults to driving in &lt;b&gt;chill mode&lt;/b&gt;. Experimental mode enables &lt;b&gt;alpha-level features&lt;/b&gt; that aren&apos;t ready for chill mode. Experimental features are listed below:</source>
-        <translation>openpilotは標準ではゆっくりとくつろげる運転を提供します。この実験モードを有効にすると、以下のくつろげる段階ではない開発中の機能を利用する事ができます。</translation>
+        <translation type="vanished">openpilotは標準ではゆっくりとくつろげる運転を提供します。この実験モードを有効にすると、以下のくつろげる段階ではない開発中の機能を利用する事ができます。</translation>
     </message>
     <message>
         <source>🌮 End-to-End Longitudinal Control 🌮</source>
@@ -1003,7 +1015,7 @@ location set</source>
     </message>
     <message>
         <source>Let the driving model control the gas and brakes. openpilot will drive as it thinks a human would, including stopping for red lights and stop signs. Since the driving model decides the speed to drive, the set speed will only act as an upper bound. This is an alpha quality feature; mistakes should be expected.</source>
-        <translation>openpilotにアクセルとブレーキを任せます。openpilotは赤信号や一時停止サインでの停止を含み、人間と同じように考えて運転を行います。openpilotが運転速度を決定するため、あなたが設定する速度は上限速度になります。この機能は実験段階のため、openpilotの運転ミスに常に備えて注意してください。</translation>
+        <translation type="vanished">openpilotにアクセルとブレーキを任せます。openpilotは赤信号や一時停止サインでの停止を含み、人間と同じように考えて運転を行います。openpilotが運転速度を決定するため、あなたが設定する速度は上限速度になります。この機能は実験段階のため、openpilotの運転ミスに常に備えて注意してください。</translation>
     </message>
     <message>
         <source>New Driving Visualization</source>
@@ -1018,16 +1030,48 @@ location set</source>
         <translation>この車のACCがアクセル制御を行うため実験モードを利用することができません。</translation>
     </message>
     <message>
-        <source>openpilot longitudinal control may come in a future update.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>An experimental version of openpilot longitudinal control can be tested, along with Experimental mode, on non-release branches.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Enable experimental longitudinal control to allow Experimental mode.</source>
         <translation>実験段階のopenpilotによるアクセル制御を有効にしてください。</translation>
+    </message>
+    <message>
+        <source>Enable copilot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use the copilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature. Changing this setting takes effect when the car is powered off.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Experimental copilot Longitudinal Control</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WARNING: copilot longitudinal control is experimental for this car and will disable Automatic Emergency Braking (AEB).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>On this car, copilot defaults to the car&apos;s built-in ACC instead of copilot&apos;s longitudinal control. Enable this to switch to copilot longitudinal control. Enabling Experimental mode is recommended when using experimental copilot longitudinal control.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When enabled, pressing the accelerator pedal will disengage copilot.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>copilot defaults to driving in &lt;b&gt;chill mode&lt;/b&gt;. Experimental mode enables &lt;b&gt;alpha-level features&lt;/b&gt; that aren&apos;t ready for chill mode. Experimental features are listed below:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Let the driving model control the gas and brakes. copilot will drive as it thinks a human would, including stopping for red lights and stop signs. Since the driving model decides the speed to drive, the set speed will only act as an upper bound. This is an alpha quality feature; mistakes should be expected.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>copilot longitudinal control may come in a future update.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An experimental version of copilot longitudinal control can be tested, along with Experimental mode, on non-release branches.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

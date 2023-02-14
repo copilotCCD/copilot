@@ -105,7 +105,7 @@
     <name>DeclinePage</name>
     <message>
         <source>You must accept the Terms and Conditions in order to use openpilot.</source>
-        <translation>Você precisa aceitar os Termos e Condições para utilizar openpilot.</translation>
+        <translation type="vanished">Você precisa aceitar os Termos e Condições para utilizar openpilot.</translation>
     </message>
     <message>
         <source>Back</source>
@@ -114,6 +114,10 @@
     <message>
         <source>Decline, uninstall %1</source>
         <translation>Rejeitar, desintalar %1</translation>
+    </message>
+    <message>
+        <source>You must accept the Terms and Conditions in order to use copilot.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -164,7 +168,7 @@
     </message>
     <message>
         <source>Review the rules, features, and limitations of openpilot</source>
-        <translation>Revisar regras, aprimoramentos e limitações do openpilot</translation>
+        <translation type="vanished">Revisar regras, aprimoramentos e limitações do openpilot</translation>
     </message>
     <message>
         <source>Are you sure you want to review the training guide?</source>
@@ -200,7 +204,7 @@
     </message>
     <message>
         <source>openpilot requires the device to be mounted within 4° left or right and within 5° up or 8° down. openpilot is continuously calibrating, resetting is rarely required.</source>
-        <translation>O openpilot requer que o dispositivo seja montado dentro de 4° esquerda ou direita e dentro de 5° para cima ou 8° para baixo. O openpilot está continuamente calibrando, resetar raramente é necessário.</translation>
+        <translation type="vanished">O openpilot requer que o dispositivo seja montado dentro de 4° esquerda ou direita e dentro de 5° para cima ou 8° para baixo. O openpilot está continuamente calibrando, resetar raramente é necessário.</translation>
     </message>
     <message>
         <source> Your device is pointed %1° %2 and %3° %4.</source>
@@ -245,6 +249,14 @@
     <message>
         <source>Review</source>
         <translation>Revisar</translation>
+    </message>
+    <message>
+        <source>Review the rules, features, and limitations of copilot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>copilot requires the device to be mounted within 4° left or right and within 5° up or 8° down. copilot is continuously calibrating, resetting is rarely required.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -927,11 +939,11 @@ trabalho definido</translation>
     <name>TogglesPanel</name>
     <message>
         <source>Enable openpilot</source>
-        <translation>Ativar openpilot</translation>
+        <translation type="vanished">Ativar openpilot</translation>
     </message>
     <message>
         <source>Use the openpilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature. Changing this setting takes effect when the car is powered off.</source>
-        <translation>Use o sistema openpilot para controle de cruzeiro adaptativo e assistência ao motorista de manutenção de faixa. Sua atenção é necessária o tempo todo para usar esse recurso. A alteração desta configuração tem efeito quando o carro é desligado.</translation>
+        <translation type="vanished">Use o sistema openpilot para controle de cruzeiro adaptativo e assistência ao motorista de manutenção de faixa. Sua atenção é necessária o tempo todo para usar esse recurso. A alteração desta configuração tem efeito quando o carro é desligado.</translation>
     </message>
     <message>
         <source>Enable Lane Departure Warnings</source>
@@ -959,7 +971,7 @@ trabalho definido</translation>
     </message>
     <message>
         <source>Experimental openpilot Longitudinal Control</source>
-        <translation>Controle longitudinal experimental openpilot</translation>
+        <translation type="vanished">Controle longitudinal experimental openpilot</translation>
     </message>
     <message>
         <source>Disengage on Accelerator Pedal</source>
@@ -967,7 +979,7 @@ trabalho definido</translation>
     </message>
     <message>
         <source>When enabled, pressing the accelerator pedal will disengage openpilot.</source>
-        <translation>Quando ativado, pressionar o pedal do acelerador desacionará o openpilot.</translation>
+        <translation type="vanished">Quando ativado, pressionar o pedal do acelerador desacionará o openpilot.</translation>
     </message>
     <message>
         <source>Show ETA in 24h Format</source>
@@ -991,15 +1003,15 @@ trabalho definido</translation>
     </message>
     <message>
         <source>WARNING: openpilot longitudinal control is experimental for this car and will disable Automatic Emergency Braking (AEB).</source>
-        <translation>ATENÇÃO: o controle longitudinal do openpilot é experimental para este carro e desativará a Frenagem Automática de Emergência (AEB).</translation>
+        <translation type="vanished">ATENÇÃO: o controle longitudinal do openpilot é experimental para este carro e desativará a Frenagem Automática de Emergência (AEB).</translation>
     </message>
     <message>
         <source>On this car, openpilot defaults to the car&apos;s built-in ACC instead of openpilot&apos;s longitudinal control. Enable this to switch to openpilot longitudinal control. Enabling Experimental mode is recommended when using experimental openpilot longitudinal control.</source>
-        <translation>Neste carro o penpilot por padrão utiliza o ACC nativo do veículo ao invés de controlar longitudinalmente. Ative isto para mudar para o controle longitudinal do openpilot. Ativar o Modo Experimental é recomendado quando em uso do controle longitudinal experimental do openpilot.</translation>
+        <translation type="vanished">Neste carro o penpilot por padrão utiliza o ACC nativo do veículo ao invés de controlar longitudinalmente. Ative isto para mudar para o controle longitudinal do openpilot. Ativar o Modo Experimental é recomendado quando em uso do controle longitudinal experimental do openpilot.</translation>
     </message>
     <message>
         <source>openpilot defaults to driving in &lt;b&gt;chill mode&lt;/b&gt;. Experimental mode enables &lt;b&gt;alpha-level features&lt;/b&gt; that aren&apos;t ready for chill mode. Experimental features are listed below:</source>
-        <translation>openpilot por padrão funciona em &lt;b&gt;modo chill&lt;/b&gt;. modo Experimental ativa &lt;b&gt;recursos de nível-alfa&lt;/b&gt; que não estão prontos para o modo chill. Recursos experimentais estão listados abaixo:</translation>
+        <translation type="vanished">openpilot por padrão funciona em &lt;b&gt;modo chill&lt;/b&gt;. modo Experimental ativa &lt;b&gt;recursos de nível-alfa&lt;/b&gt; que não estão prontos para o modo chill. Recursos experimentais estão listados abaixo:</translation>
     </message>
     <message>
         <source>🌮 End-to-End Longitudinal Control 🌮</source>
@@ -1007,7 +1019,7 @@ trabalho definido</translation>
     </message>
     <message>
         <source>Let the driving model control the gas and brakes. openpilot will drive as it thinks a human would, including stopping for red lights and stop signs. Since the driving model decides the speed to drive, the set speed will only act as an upper bound. This is an alpha quality feature; mistakes should be expected.</source>
-        <translation>Deixe o modelo de IA controlar o acelerador e os freios. O openpilot irá dirigir como pensa que um humano faria, incluindo parar em sinais vermelhos e sinais de parada. Uma vez que o modelo de condução decide a velocidade a conduzir, a velocidade definida apenas funcionará como um limite superior. Este é um recurso de qualidade alfa; erros devem ser esperados.</translation>
+        <translation type="vanished">Deixe o modelo de IA controlar o acelerador e os freios. O openpilot irá dirigir como pensa que um humano faria, incluindo parar em sinais vermelhos e sinais de parada. Uma vez que o modelo de condução decide a velocidade a conduzir, a velocidade definida apenas funcionará como um limite superior. Este é um recurso de qualidade alfa; erros devem ser esperados.</translation>
     </message>
     <message>
         <source>New Driving Visualization</source>
@@ -1023,15 +1035,55 @@ trabalho definido</translation>
     </message>
     <message>
         <source>openpilot longitudinal control may come in a future update.</source>
-        <translation>O controle longitudinal openpilot pode vir em uma atualização futura.</translation>
+        <translation type="vanished">O controle longitudinal openpilot pode vir em uma atualização futura.</translation>
     </message>
     <message>
         <source>An experimental version of openpilot longitudinal control can be tested, along with Experimental mode, on non-release branches.</source>
-        <translation>Uma versão experimental do controle longitudinal openpilot pode ser testada, juntamente com o modo Experimental, em branches de desenvolvimento.</translation>
+        <translation type="vanished">Uma versão experimental do controle longitudinal openpilot pode ser testada, juntamente com o modo Experimental, em branches de desenvolvimento.</translation>
     </message>
     <message>
         <source>Enable experimental longitudinal control to allow Experimental mode.</source>
         <translation>Ative o controle longitudinal experimental para permitir o modo Experimental.</translation>
+    </message>
+    <message>
+        <source>Enable copilot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use the copilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature. Changing this setting takes effect when the car is powered off.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Experimental copilot Longitudinal Control</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WARNING: copilot longitudinal control is experimental for this car and will disable Automatic Emergency Braking (AEB).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>On this car, copilot defaults to the car&apos;s built-in ACC instead of copilot&apos;s longitudinal control. Enable this to switch to copilot longitudinal control. Enabling Experimental mode is recommended when using experimental copilot longitudinal control.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When enabled, pressing the accelerator pedal will disengage copilot.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>copilot defaults to driving in &lt;b&gt;chill mode&lt;/b&gt;. Experimental mode enables &lt;b&gt;alpha-level features&lt;/b&gt; that aren&apos;t ready for chill mode. Experimental features are listed below:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Let the driving model control the gas and brakes. copilot will drive as it thinks a human would, including stopping for red lights and stop signs. Since the driving model decides the speed to drive, the set speed will only act as an upper bound. This is an alpha quality feature; mistakes should be expected.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>copilot longitudinal control may come in a future update.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An experimental version of copilot longitudinal control can be tested, along with Experimental mode, on non-release branches.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
