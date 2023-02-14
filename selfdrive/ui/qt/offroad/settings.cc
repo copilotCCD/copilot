@@ -31,9 +31,9 @@ TogglesPanel::TogglesPanel(SettingsWindow *parent) : ListWidget(parent) {
   std::vector<std::tuple<QString, QString, QString, QString>> toggle_defs{
     {
       "OpenpilotEnabledToggle",
-      tr("Enable openpilot"),
-      tr("Use the openpilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature. Changing this setting takes effect when the car is powered off."),
-      "../assets/offroad/icon_openpilot.png",
+      tr("Enable copilot"),
+      tr("Use the copilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature. Changing this setting takes effect when the car is powered off."),
+      "../assets/offroad/icon_copilot.png",
     },
     {
       "ExperimentalMode",
@@ -43,10 +43,10 @@ TogglesPanel::TogglesPanel(SettingsWindow *parent) : ListWidget(parent) {
     },
     {
       "ExperimentalLongitudinalEnabled",
-      tr("Experimental openpilot Longitudinal Control"),
+      tr("Experimental copilot Longitudinal Control"),
       QString("<b>%1</b><br>%2")
-      .arg(tr("WARNING: openpilot longitudinal control is experimental for this car and will disable Automatic Emergency Braking (AEB)."))
-      .arg(tr("On this car, openpilot defaults to the car's built-in ACC instead of openpilot's longitudinal control. Enable this to switch to openpilot longitudinal control. Enabling Experimental mode is recommended when using experimental openpilot longitudinal control.")),
+      .arg(tr("WARNING: copilot longitudinal control is experimental for this car and will disable Automatic Emergency Braking (AEB)."))
+      .arg(tr("On this car, copilot defaults to the car's built-in ACC instead of copilot's longitudinal control. Enable this to switch to copilot longitudinal control. Enabling Experimental mode is recommended when using experimental copilot longitudinal control.")),
       "../assets/offroad/icon_speed_limit.png",
     },
     {
@@ -70,7 +70,7 @@ TogglesPanel::TogglesPanel(SettingsWindow *parent) : ListWidget(parent) {
     {
       "DisengageOnAccelerator",
       tr("Disengage on Accelerator Pedal"),
-      tr("When enabled, pressing the accelerator pedal will disengage openpilot."),
+      tr("When enabled, pressing the accelerator pedal will disengage copilot."),
       "../assets/offroad/icon_disengage_on_accelerator.svg",
     },
 #ifdef ENABLE_MAPS
@@ -125,9 +125,9 @@ void TogglesPanel::updateToggles() {
                                           "%3<br>"
                                           "<h4>%4</h4><br>"
                                           "%5")
-                                  .arg(tr("openpilot defaults to driving in <b>chill mode</b>. Experimental mode enables <b>alpha-level features</b> that aren't ready for chill mode. Experimental features are listed below:"))
+                                  .arg(tr("copilot defaults to driving in <b>chill mode</b>. Experimental mode enables <b>alpha-level features</b> that aren't ready for chill mode. Experimental features are listed below:"))
                                   .arg(tr("🌮 End-to-End Longitudinal Control 🌮"))
-                                  .arg(tr("Let the driving model control the gas and brakes. openpilot will drive as it thinks a human would, including stopping for red lights and stop signs. "
+                                  .arg(tr("Let the driving model control the gas and brakes. copilot will drive as it thinks a human would, including stopping for red lights and stop signs. "
                                        "Since the driving model decides the speed to drive, the set speed will only act as an upper bound. This is an alpha quality feature; mistakes should be expected."))
                                   .arg(tr("New Driving Visualization"))
                                   .arg(tr("The driving visualization will transition to the road-facing wide-angle camera at low speeds to better show some turns. The Experimental mode logo will also be shown in the top right corner."));
@@ -158,10 +158,10 @@ void TogglesPanel::updateToggles() {
       const QString unavailable = tr("Experimental mode is currently unavailable on this car since the car's stock ACC is used for longitudinal control.");
 
       QString long_desc = unavailable + " " + \
-                          tr("openpilot longitudinal control may come in a future update.");
+                          tr("copilot longitudinal control may come in a future update.");
       if (CP.getExperimentalLongitudinalAvailable()) {
         if (is_release) {
-          long_desc = unavailable + " " + tr("An experimental version of openpilot longitudinal control can be tested, along with Experimental mode, on non-release branches.");
+          long_desc = unavailable + " " + tr("An experimental version of copilot longitudinal control can be tested, along with Experimental mode, on non-release branches.");
         } else {
           long_desc = tr("Enable experimental longitudinal control to allow Experimental mode.");
         }
@@ -198,7 +198,7 @@ DevicePanel::DevicePanel(SettingsWindow *parent) : ListWidget(parent) {
   addItem(resetCalibBtn);
 
   if (!params.getBool("Passive")) {
-    auto retrainingBtn = new ButtonControl(tr("Review Training Guide"), tr("REVIEW"), tr("Review the rules, features, and limitations of openpilot"));
+    auto retrainingBtn = new ButtonControl(tr("Review Training Guide"), tr("REVIEW"), tr("Review the rules, features, and limitations of copilot"));
     connect(retrainingBtn, &ButtonControl::clicked, [=]() {
       if (ConfirmationDialog::confirm(tr("Are you sure you want to review the training guide?"), tr("Review"), this)) {
         emit reviewTrainingGuide();
@@ -264,8 +264,8 @@ DevicePanel::DevicePanel(SettingsWindow *parent) : ListWidget(parent) {
 
 void DevicePanel::updateCalibDescription() {
   QString desc =
-      tr("openpilot requires the device to be mounted within 4° left or right and "
-         "within 5° up or 8° down. openpilot is continuously calibrating, resetting is rarely required.");
+      tr("copilot requires the device to be mounted within 4° left or right and "
+         "within 5° up or 8° down. copilot is continuously calibrating, resetting is rarely required.");
   std::string calib_bytes = Params().get("CalibrationParams");
   if (!calib_bytes.empty()) {
     try {
