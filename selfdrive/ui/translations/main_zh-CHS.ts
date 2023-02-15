@@ -382,12 +382,12 @@
     </message>
     <message>
         <source>Try the Navigation Beta</source>
-        <translation>试用导航测试版</translation>
+        <translation type="vanished">试用导航测试版</translation>
     </message>
     <message>
         <source>Get turn-by-turn directions displayed and more with a comma
 prime subscription. Sign up now: https://connect.comma.ai</source>
-        <translation>订阅comma prime以获取导航。
+        <translation type="vanished">订阅comma prime以获取导航。
 立即注册：https://connect.comma.ai</translation>
     </message>
     <message>
@@ -553,7 +553,7 @@ location set</source>
     </message>
     <message>
         <source>openpilot</source>
-        <translation>openpilot</translation>
+        <translation type="vanished">openpilot</translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s) ago</source>
@@ -572,6 +572,10 @@ location set</source>
         <translation>
             <numerusform>%n 天前</numerusform>
         </translation>
+    </message>
+    <message>
+        <source>copilot</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -637,7 +641,7 @@ location set</source>
     </message>
     <message>
         <source>Navigation</source>
-        <translation>导航</translation>
+        <translation type="vanished">导航</translation>
     </message>
 </context>
 <context>

@@ -382,12 +382,12 @@
     </message>
     <message>
         <source>Try the Navigation Beta</source>
-        <translation>β版ﾅﾋﾞｹﾞｰｼｮﾝを試す</translation>
+        <translation type="vanished">β版ﾅﾋﾞｹﾞｰｼｮﾝを試す</translation>
     </message>
     <message>
         <source>Get turn-by-turn directions displayed and more with a comma
 prime subscription. Sign up now: https://connect.comma.ai</source>
-        <translation>より詳細な案内情報を得ることができます。
+        <translation type="vanished">より詳細な案内情報を得ることができます。
 詳しくはこちら：https://connect.comma.ai</translation>
     </message>
     <message>
@@ -555,7 +555,7 @@ location set</source>
     </message>
     <message>
         <source>openpilot</source>
-        <translation>openpilot</translation>
+        <translation type="vanished">openpilot</translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s) ago</source>
@@ -574,6 +574,10 @@ location set</source>
         <translation>
             <numerusform>%n 日前</numerusform>
         </translation>
+    </message>
+    <message>
+        <source>copilot</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -639,7 +643,7 @@ location set</source>
     </message>
     <message>
         <source>Navigation</source>
-        <translation>ﾅﾋﾞｹﾞｰｼｮﾝ</translation>
+        <translation type="vanished">ﾅﾋﾞｹﾞｰｼｮﾝ</translation>
     </message>
 </context>
 <context>

@@ -383,12 +383,12 @@
     </message>
     <message>
         <source>Try the Navigation Beta</source>
-        <translation>Beta Navigation ausprobieren</translation>
+        <translation type="vanished">Beta Navigation ausprobieren</translation>
     </message>
     <message>
         <source>Get turn-by-turn directions displayed and more with a comma
 prime subscription. Sign up now: https://connect.comma.ai</source>
-        <translation>Erhalte echtzeit Wegführung und mehr mit dem comma prime
+        <translation type="vanished">Erhalte echtzeit Wegführung und mehr mit dem comma prime
 Abonnement. Melde dich jetzt an: https://connect.comma.ai</translation>
     </message>
     <message>
@@ -554,7 +554,7 @@ location set</source>
     </message>
     <message>
         <source>openpilot</source>
-        <translation>openpilot</translation>
+        <translation type="vanished">openpilot</translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s) ago</source>
@@ -576,6 +576,10 @@ location set</source>
             <numerusform>vor %n Tag</numerusform>
             <numerusform>vor %n Tagen</numerusform>
         </translation>
+    </message>
+    <message>
+        <source>copilot</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -641,7 +645,7 @@ location set</source>
     </message>
     <message>
         <source>Navigation</source>
-        <translation>Navigation</translation>
+        <translation type="vanished">Navigation</translation>
     </message>
 </context>
 <context>

@@ -383,12 +383,12 @@
     </message>
     <message>
         <source>Try the Navigation Beta</source>
-        <translation>Experimente a Navegação Beta</translation>
+        <translation type="vanished">Experimente a Navegação Beta</translation>
     </message>
     <message>
         <source>Get turn-by-turn directions displayed and more with a comma
 prime subscription. Sign up now: https://connect.comma.ai</source>
-        <translation>Obtenha instruções passo a passo exibidas e muito mais com
+        <translation type="vanished">Obtenha instruções passo a passo exibidas e muito mais com
 uma assinatura prime. Inscreva-se agora:  https://connect.comma.ai</translation>
     </message>
     <message>
@@ -556,7 +556,7 @@ trabalho definido</translation>
     </message>
     <message>
         <source>openpilot</source>
-        <translation>openpilot</translation>
+        <translation type="vanished">openpilot</translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s) ago</source>
@@ -578,6 +578,10 @@ trabalho definido</translation>
             <numerusform>há %n dia</numerusform>
             <numerusform>há %n dias</numerusform>
         </translation>
+    </message>
+    <message>
+        <source>copilot</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -643,7 +647,7 @@ trabalho definido</translation>
     </message>
     <message>
         <source>Navigation</source>
-        <translation>Navegação</translation>
+        <translation type="vanished">Navegação</translation>
     </message>
 </context>
 <context>

@@ -372,11 +372,11 @@ SettingsWindow::SettingsWindow(QWidget *parent) : QFrame(parent) {
     {tr("Software"), new SoftwarePanel(this)},
   };
 
-#ifdef ENABLE_MAPS
-  auto map_panel = new MapPanel(this);
-  panels.push_back({tr("Navigation"), map_panel});
-  QObject::connect(map_panel, &MapPanel::closeSettings, this, &SettingsWindow::closeSettings);
-#endif
+//#ifdef ENABLE_MAPS
+//  auto map_panel = new MapPanel(this);
+  //panels.push_back({tr("Navigation"), map_panel});
+  //QObject::connect(map_panel, &MapPanel::closeSettings, this, &SettingsWindow::closeSettings);
+//#endif
 
   const int padding = panels.size() > 3 ? 25 : 35;
 
