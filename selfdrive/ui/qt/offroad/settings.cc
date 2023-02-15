@@ -30,7 +30,7 @@ TogglesPanel::TogglesPanel(SettingsWindow *parent) : ListWidget(parent) {
   // param, title, desc, icon, confirm
   std::vector<std::tuple<QString, QString, QString, QString>> toggle_defs{
     {
-      "OpenpilotEnabledToggle",
+      "CopilotEnabledToggle",
       tr("Enable copilot"),
       tr("Use the copilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature. Changing this setting takes effect when the car is powered off."),
       "../assets/offroad/icon_copilot.png",
