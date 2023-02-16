@@ -47,8 +47,8 @@ pipeline {
   agent none
   environment {
     CI = "1"
-    TEST_DIR = "/data/copilot"
-    SOURCE_DIR = "/data/copilot_source/"
+    TEST_DIR = "/data/openpilot"
+    SOURCE_DIR = "/data/openpilot_source/"
     AZURE_TOKEN = credentials('azure_token')
     MAPBOX_TOKEN = credentials('mapbox_token')
   }

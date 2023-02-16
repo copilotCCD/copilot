@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 if [ -z "$BASEDIR" ]; then
-  BASEDIR="/data/copilot"
+  BASEDIR="/data/openpilot"
 fi
 
 source "$BASEDIR/launch_env.sh"
